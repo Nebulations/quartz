@@ -1,0 +1,6 @@
+me\nebu\quartzExamplePlugin\ChatListener.class
+me\nebu\quartzExamplePlugin\RankCommand.class
+me\nebu\quartzExamplePlugin\QuartzExamplePlugin.class
+me\nebu\quartzExamplePlugin\ChatFormatting.class
+me\nebu\quartzExamplePlugin\Rank.class
+me\nebu\quartzExamplePlugin\RankCompleter.class

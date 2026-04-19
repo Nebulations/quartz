@@ -1,0 +1,11 @@
+name: QuartzExamplePlugin
+version: '1.0.0'
+main: me.nebu.quartzExamplePlugin.QuartzExamplePlugin
+api-version: '1.21'
+authors: [ Nebula ]
+description: An example plugin using Quartz's player storage engine.
+website: https://github.com/Nebulations/quartz
+commands:
+  rank:
+    description: Debug Quartz command to set your rank to a string.
+    usage: /<command> <player> <rank>
