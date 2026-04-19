@@ -154,7 +154,7 @@ public class PlayerData {
      * is enabled. (configured in the QuartzConfig provided)
      */
     private void save() {
-        if (Quartz.getConfig().shouldAutoSave() || Quartz.getConfig().shouldPersistDefaults() || autoSave)
+        if (Quartz.getConfig().shouldAutoSave() || autoSave)
             Quartz.save(this);
     }
 
@@ -171,7 +171,7 @@ public class PlayerData {
 
         if (result == null) {
             playerData.put(key, defaultOption);
-            save();
+            if (Quartz.getConfig().shouldPersistDefaults()) Quartz.save(this);
 
             return defaultOption;
         }
