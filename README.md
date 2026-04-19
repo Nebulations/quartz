@@ -7,7 +7,7 @@ Quartz is a lightweight java library for handling player data in Minecraft plugi
 
 ## Installation guide (IntelliJ IDEA)
 This guide assumes you have already installed the IntelliJ IDE and installed the Minecraft extension.
-1. Download the latest release of <a href="">Quartz</a>. This should be the file located at `quartz/target/quartz-X.jar` within this repository. Make sure to store it at a proper location, as the file cannot be deleted in the future (unless you no longer need it)
+1. Download the latest release of <a href="https://github.com/Nebulations/quartz/releases/tag/Release">Quartz</a>. Make sure to store it at a proper location, as the file cannot be deleted in the future (unless you no longer need it)
 1. Create a new paper plugin project.
 1. In IntelliJ, click on the hamburger menu at the top left, File -> Project Structure. This should have opened a new menu called "Project Structure".
 1. Under "Project Settings", click on "Libraries".
